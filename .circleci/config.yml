@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - yarn-dependencies
+
+      - run:
+          name: install dependencies
+          command: |
+            yarn
+
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: yarn-dependencies
+
+      - run:
+          name: run tests
+          command: |
+            set -euo pipefail
+            yarn build
