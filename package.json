@@ -8,7 +8,7 @@
   "devDependencies": {
     "@babel/core": "7.6.4",
     "@babel/preset-env": "7.6.3",
-    "@types/node": "12.7.12",
+    "@types/node": "12.11.1",
     "babel-loader": "8.0.6",
     "cross-env": "6.0.3",
     "hard-source-webpack-plugin": "0.13.1",
