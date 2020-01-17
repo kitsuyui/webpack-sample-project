@@ -8,7 +8,7 @@
   "devDependencies": {
     "@babel/core": "7.7.7",
     "@babel/preset-env": "7.7.7",
-    "@types/node": "12.12.24",
+    "@types/node": "12.12.25",
     "babel-loader": "8.0.6",
     "cross-env": "6.0.3",
     "hard-source-webpack-plugin": "0.13.1",
@@ -16,7 +16,7 @@
     "prettier-webpack-plugin": "1.2.0",
     "ts-loader": "6.2.1",
     "tslint": "5.20.1",
-    "typescript": "3.7.4",
+    "typescript": "3.7.5",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10"
   },
