@@ -6,9 +6,9 @@
     "lint": "tslint --project ."
   },
   "devDependencies": {
-    "@babel/core": "7.10.2",
-    "@babel/preset-env": "7.10.2",
-    "@types/node": "12.12.35",
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4",
+    "@types/node": "12.12.68",
     "babel-loader": "8.1.0",
     "cross-env": "7.0.2",
     "hard-source-webpack-plugin": "0.13.1",
@@ -18,7 +18,7 @@
     "tslint": "5.20.1",
     "typescript": "3.8.3",
     "webpack": "4.41.6",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.12"
   },
   "private": true
 }
